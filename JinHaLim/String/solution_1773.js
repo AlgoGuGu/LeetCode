@@ -18,7 +18,7 @@ var countMatches = function(items, ruleKey, ruleValue) {
         case 'type':
             ruleCount = secrchFunction(0);
             break;
-        case 'color':
+        case 'color':   
             ruleCount = secrchFunction(1);
             break;
         case 'name':

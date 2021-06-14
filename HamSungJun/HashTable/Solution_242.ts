@@ -15,5 +15,5 @@ function isAnagram (s: string, t: string): boolean {
     }
     countMap.set(nextChar, countMap.get(nextChar) - 1)
   }
-  return true
+  return [...countMap.values()].filter(v => v >= 1).length === 0
 };

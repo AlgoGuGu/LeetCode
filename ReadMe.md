@@ -1,4 +1,4 @@
-# AlgoGuGu
+# AlgoGuGu(^@^)
 
 - 하기로 마음먹고, 그것을 한다.
 

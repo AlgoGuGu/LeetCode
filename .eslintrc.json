@@ -16,6 +16,8 @@
         "@typescript-eslint"
     ],
     "rules": {
-        "max-len": 0
+        "max-len": 0,
+        "indent": "off",
+        "@typescript-eslint/indent": ["error"]
     }
 }

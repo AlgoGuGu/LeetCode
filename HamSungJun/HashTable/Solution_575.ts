@@ -1,0 +1,5 @@
+function distributeCandies (candyType: number[]): number {
+  return Math.min(candyType.length / 2, new Set(candyType).size)
+};
+
+console.log(distributeCandies([6, 6, 6, 6]))
